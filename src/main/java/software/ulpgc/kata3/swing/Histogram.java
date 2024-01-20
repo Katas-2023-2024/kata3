@@ -1,4 +1,4 @@
 package software.ulpgc.kata3.swing;
 
-public enum Histogram {
+public record Histogram (String title, String xAxis, String yAxis, double[] data, int bins){
 }
