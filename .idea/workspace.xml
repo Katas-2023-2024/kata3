@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e589736-eb7b-4343-99ea-4e4f99b8a3ba" name="Changes" comment="Kata3 copied in kata 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata3/swing/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata3/swing/Histogram.java" afterDir="false" />
+    <list default="true" id="7e589736-eb7b-4343-99ea-4e4f99b8a3ba" name="Changes" comment="Class JFreePanelHistogramDisplay created">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata3/swing/JFreePanelHistogramDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata3/swing/JFreePanelHistogramDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -83,11 +84,51 @@
       <option name="project" value="LOCAL" />
       <updated>1705774101983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Record Histogram created">
+      <created>1705774171636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705774171636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Record Histogram error solutionated and done">
+      <created>1705774272072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705774272072</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Interface HistogramDisplay created">
+      <created>1705774325622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705774325622</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Interface HistogramDisplay done">
+      <created>1705774357955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705774357955</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Class JFreePanelHistogramDisplay created">
+      <created>1705774422650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705774422650</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kata3 copied in kata 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kata3 copied in kata 2" />
+    <MESSAGE value="Record Histogram created" />
+    <MESSAGE value="Record Histogram error solutionated and done" />
+    <MESSAGE value="Interface HistogramDisplay created" />
+    <MESSAGE value="Interface HistogramDisplay done" />
+    <MESSAGE value="Class JFreePanelHistogramDisplay created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class JFreePanelHistogramDisplay created" />
   </component>
 </project>
