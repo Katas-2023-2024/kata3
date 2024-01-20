@@ -1,5 +1,9 @@
 package software.ulpgc.kata3;
 
+import software.ulpgc.kata3.swing.Histogram;
+import software.ulpgc.kata3.swing.HistogramDisplay;
+import software.ulpgc.kata3.swing.MainFrame;
+
 import java.io.File;
 import java.util.HashMap;
 import java.util.List;
@@ -17,5 +21,12 @@ public class Main {
         for (String key : chart.keySet()) {
             System.out.println(key + " : " + chart.get(key));
         }
+
+        double[] data = chart.values().stream().mapToDouble(Integer::doubleValue).toArray();
+        int bins = chart.size();
+        Histogram histogram = new Histogram("Countries", "Number of Costumers", "Number of Countries", data, bins);
+        MainFrame frame = new MainFrame();
+        frame.histogramDisplay().show(histogram);
+        frame.setVisible(true);
     }
 }
